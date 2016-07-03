@@ -12,14 +12,22 @@
 	font-size: 50px;
 
 }
-
-.guitarras h3 {
+.guitarras {
+	color: #1F313C;
+}
+.guitarras h2 {
 	font-size: 35px;
+}
+.portada {
+	background: url(../images/background.png);
+	color: white;
 }
 
 
 
-
+.menu {
+	font-size: 24px;
+}
 
 
 
