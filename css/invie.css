@@ -5,6 +5,10 @@
 
 /*font-family: 'Allerta', sans-serif;
 */
+* {
+	padding: 10px;
+	border: 2px solid red;
+}
 body {
 	font-family: 'Allerta', sans-serif;
 }
