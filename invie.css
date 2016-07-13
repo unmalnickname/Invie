@@ -49,8 +49,6 @@ body {
 .menu {
 	font-size: 24px;
 	display: inline-block;
-	position: absolute;
-	right: 0px;
 }
 .menu li {
 	display: inline-block;
@@ -65,14 +63,17 @@ body {
 .contenedor {
 	width: 800px;
 	margin: auto;
+
 }
 .guitarra {
 	margin: 10px;
 	padding: 10px;
-/*	overflow: hidden;
-*/	border: 1px solid #1F313C;
+	/* overflow: hidden; */
+	border: 1px solid #1F313C;
 	position: relative;
 }
+
+article.guitarra {}
 .guitarra ol {
 	padding: 0;
 }
@@ -84,8 +85,6 @@ body {
 }
 .izquierda {
 	float: left;
-	position: relative;
-	top: 80px;
 
 }
 .contenedor-guitarra-a {
@@ -95,15 +94,3 @@ body {
 	margin-left:  370px;
 	padding-left: 
 }
-.header {
-	position: relative;
-}
-
-
-
-
-
-
-
-
-
