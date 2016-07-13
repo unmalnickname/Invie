@@ -58,16 +58,47 @@
 		</div>
 	</article>
 	</section>
-	<footer class="footer contenedor" >
+	<footer class="footer" >
+	<div class="contenedor">
 		<div class="contacto">
 			<img src="images/invie-white.png" alt="logotipo blanco"/>
 			<a href="tel:+015164288177"><strong>Telefono</strong> <span>5164288177</span></a>
 			<a href="mailto:"><strong>E-Mail</strong> <span>Muxproo@gmail.com</span></a>
-
-
 		</div>
 		<div>
-			formulario
+			<form action="" class="formulario">
+				<label for="nombre">Nombre</label>
+				<input type="email" required id="nombre" name="nombre" />
+				<label for="email">E-mail</label>
+				<input type="email" required id="email" name="email" />
+				<div class="sexo">
+					<label for="mujer">
+						<input type="radio" id="mujer" name="sexo" value="Mujer"> Mujer
+					</label>
+					<label for="hombre">
+						<input type="radio" id="hombre" name="sexo" value="hombre"> Hombre
+					</label>
+				</div>
+				<div class="intereses">
+					<label for="contizacion">
+						<input type="checkbox" id="contizacion" name="intereses" value="Contizacion">Contizacion
+					</label>
+					<label for="reclamos">
+						<input type="checkbox" id="reclamos" name="intereses" value="Reclamos">Reclamos
+					</label>
+					<label for="comentarios">
+						<input type="checkbox" id="comentarios" name="intereses" value="Comentarios">Comentarios
+					</label>
+					<label for="otros">
+						<input type="checkbox" id="otros" name="intereses" value="Otros">Otros
+					</label>
+				</div>
+				<div>
+				<label for="comentarios">comentarios</label>
+				<textarea name="comentarios" id="comentarios" cols="30" rows="7"></textarea>
+				<input type="submit" value="Enviar">
+				</div>
+			</form>
 		</div>
 	</footer>
 </body>
