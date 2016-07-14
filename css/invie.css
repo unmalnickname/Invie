@@ -1,4 +1,4 @@
-/**{
+/**{ minuto 25:35;
 	border: 1px solid red;
 
 }*/
@@ -13,12 +13,51 @@ body {
 	font-family: 'Allerta', sans-serif;
 	margin: 0;
 }
+table {
+	width: 100%;
+}
+th {
+	background: #273b47;
+}
+th {
+	color: white;
+}
+th {
+	padding: 10px;
+	text-align: left;
+}
+
+td {
+	padding: 20px;
+}
+table, td, th {
+
+	border: 1px	solid #273b47;
+	border-collapse: collapse;
+}  
+input, textarea {
+	outline: 0;
+}
+input:focus, textarea:focus {
+	 background: lightgrey; 
+}
+.contenedor {
+	width: 800px;
+	margin: auto;
+}
 .titulo {
 	font-size: 70px;
 	font-family: 'Montserrat', sans-serif;
 	margin-bottom: 0px;
 	margin-top: 70px;
 
+}
+.titulo span {
+	text-decoration: underline;
+}
+
+/*#portada > div > h1 > span {
+	text-decoration: underline;*/
 }
 .title-a {
 	font-size: 24px;
@@ -31,6 +70,7 @@ body {
 }
 .guitarras {
 	color: #1F313C;
+	margin-bottom: 60px;
 }
 .guitarras h2 {
 	font-family: 'Montserrat', sans-serif;
@@ -38,11 +78,14 @@ body {
 }
 .portada {
 	background: url(../images/background.png);
+	background-size: cover;
 	color: white;
 	padding: 20px;
+	height: 500px; 
 }
 .portada button {
 	margin-bottom: 70px;
+
 }
 
 
@@ -60,21 +103,20 @@ body {
     content:'∘';
     font-size:50px;
     line-height: 20px;
-    color: blue;
-
-
+    color: white;
+}
+.menu a {
+	color: white;
+	text-decoration: none;
 }
 
 .logotipo {
 	display: inline-block;
+	margin-left: 0;
 }
 
-.contenedor {
-	width: 800px;
-	margin: auto;
-}
 .guitarra {
-	margin: 10px;
+	margin: 10px 10px 40px 10px;
 	padding: 10px;
 /*	overflow: hidden;
 */	border: 1px solid #1F313C;
@@ -83,6 +125,9 @@ body {
 }
 .guitarra ol {
 	padding: 0;
+}
+.guitarra.b {
+	height: 190px;
 }
 
 .derecha {
@@ -93,29 +138,35 @@ body {
 .izquierda {
 	float: left;
 	position: relative;
-	top: 80px;
-
+/*	top: 80px;
+*/
 }
 .contenedor-guitarra-a {
 	padding-left: 20px;
 }
 .contenedor-guitarra-b {
 	margin-left:  370px;
-	padding-left: 
+	position: relative;
+	bottom: 90px;
 }
 .header {
 	position: relative;
 	margin: ;
 }
 .button {
-	border-radius: 5px;
+	border-radius: 12px;
 	border: none;
 	background: #fd324e;
-	color: white;:;
-	padding: 7px;
+	color: white;
+	padding: 7px 12px;
+	font-size: 18px;
+	background: linear-gradient( to left, #fe344e, #ff7250);
+	cursor: pointer;
+	text-decoration: none;
 }
 footer {
 	background: #273b47;
+	padding: 50px 10px;
 }
 .contacto {
 	display: flex;
@@ -144,7 +195,6 @@ footer {
 	display: flex;
 	width: 400px;
 	color: white;
-	padding: 50px 10px;
 }
 .col1, .col2 {
 	display: flex;
@@ -156,6 +206,9 @@ footer {
 .col2 {
 	align-items: flex-start;
 }
+.col2 .button {
+	margin-top: 15px;
+}
 .intereses label {
 	font-size: 12px;
 }
@@ -165,28 +218,7 @@ footer {
 .sexo {
 	margin-top: 15px;
 }
-table {
-	width: 100%;
-}
-th {
-	background: #273b47;
-}
-th {
-	color: white;
-}
-th {
-	padding: 10px;
-	text-align: left;
-}
 
-td {
-	padding: 20px;
-}
-table, td, th {
-
-	border: 1px	solid #273b47;
-	border-collapse: collapse;
-}
 
 
 
