@@ -55,6 +55,13 @@ body {
 .menu li {
 	display: inline-block;
 	margin-left: 30px;
+}
+.menu li:before{
+    content:'∘';
+    font-size:50px;
+    line-height: 20px;
+    color: blue;
+
 
 }
 
@@ -98,7 +105,7 @@ body {
 }
 .header {
 	position: relative;
-	margin: 3em;
+	margin: ;
 }
 .button {
 	border-radius: 5px;
@@ -180,6 +187,31 @@ table, td, th {
 	border: 1px	solid #273b47;
 	border-collapse: collapse;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
